@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <!-- Background circle with gradient -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#f87171"/>
+      <stop offset="100%" style="stop-color:#e81c32"/>
+    </radialGradient>
+  </defs>
+  <circle cx="96" cy="96" r="96" fill="url(#bg)"/>
+  
+  <!-- Praying hands icon (detailed) -->
+  <g fill="white" transform="translate(48, 36)">
+    <!-- Left hand palm -->
+    <path d="M24 12 C20 12, 16 16, 16 20 L16 80 C16 92, 20 96, 24 96 L32 96 C32 88, 32 80, 32 72 L32 20 C32 16, 28 12, 24 12 Z"/>
+    <!-- Right hand palm -->
+    <path d="M72 12 C76 12, 80 16, 80 20 L80 80 C80 92, 76 96, 72 96 L64 96 C64 88, 64 80, 64 72 L64 20 C64 16, 68 12, 72 12 Z"/>
+    <!-- Center connection/wrists -->
+    <path d="M32 20 L64 20 L64 80 L32 80 Z"/>
+    
+    <!-- Left hand fingers -->
+    <rect x="18" y="4" width="3" height="20" rx="1.5"/>
+    <rect x="22" y="2" width="3" height="22" rx="1.5"/>
+    <rect x="26" y="4" width="3" height="20" rx="1.5"/>
+    <rect x="30" y="6" width="3" height="18" rx="1.5"/>
+    
+    <!-- Right hand fingers -->
+    <rect x="63" y="6" width="3" height="18" rx="1.5"/>
+    <rect x="67" y="4" width="3" height="20" rx="1.5"/>
+    <rect x="71" y="2" width="3" height="22" rx="1.5"/>
+    <rect x="75" y="4" width="3" height="20" rx="1.5"/>
+    
+    <!-- Thumbs -->
+    <ellipse cx="14" cy="24" rx="2" ry="8" fill="white"/>
+    <ellipse cx="82" cy="24" rx="2" ry="8" fill="white"/>
+  </g>
+  
+  <!-- Subtle shine effect -->
+  <circle cx="72" cy="60" r="20" fill="white" opacity="0.1"/>
+</svg>

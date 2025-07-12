@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="coverBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef2f2"/>
+      <stop offset="50%" style="stop-color:#fee2e2"/>
+      <stop offset="100%" style="stop-color:#fecaca"/>
+    </linearGradient>
+    <radialGradient id="iconBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f87171"/>
+      <stop offset="100%" style="stop-color:#e81c32"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#coverBg)"/>
+  
+  <!-- Decorative pattern -->
+  <g opacity="0.1">
+    <circle cx="100" cy="100" r="2" fill="#e81c32"/>
+    <circle cx="200" cy="150" r="3" fill="#e81c32"/>
+    <circle cx="1100" cy="80" r="2" fill="#e81c32"/>
+    <circle cx="1000" cy="200" r="3" fill="#e81c32"/>
+    <circle cx="150" cy="500" r="2" fill="#e81c32"/>
+    <circle cx="1050" cy="450" r="2" fill="#e81c32"/>
+  </g>
+  
+  <!-- Main content container -->
+  <g transform="translate(150, 150)">
+    <!-- App icon -->
+    <circle cx="150" cy="165" r="120" fill="url(#iconBg)" stroke="white" stroke-width="8"/>
+    
+    <!-- Praying hands in icon -->
+    <g fill="white" transform="translate(90, 105)">
+      <!-- Left hand palm -->
+      <path d="M24 12 C20 12, 16 16, 16 20 L16 80 C16 92, 20 96, 24 96 L32 96 C32 88, 32 80, 32 72 L32 20 C32 16, 28 12, 24 12 Z"/>
+      <!-- Right hand palm -->
+      <path d="M72 12 C76 12, 80 16, 80 20 L80 80 C80 92, 76 96, 72 96 L64 96 C64 88, 64 80, 64 72 L64 20 C64 16, 68 12, 72 12 Z"/>
+      <!-- Center connection -->
+      <path d="M32 20 L64 20 L64 80 L32 80 Z"/>
+      
+      <!-- Fingers -->
+      <rect x="18" y="4" width="3" height="20" rx="1.5"/>
+      <rect x="22" y="2" width="3" height="22" rx="1.5"/>
+      <rect x="26" y="4" width="3" height="20" rx="1.5"/>
+      <rect x="30" y="6" width="3" height="18" rx="1.5"/>
+      <rect x="63" y="6" width="3" height="18" rx="1.5"/>
+      <rect x="67" y="4" width="3" height="20" rx="1.5"/>
+      <rect x="71" y="2" width="3" height="22" rx="1.5"/>
+      <rect x="75" y="4" width="3" height="20" rx="1.5"/>
+      
+      <!-- Thumbs -->
+      <ellipse cx="14" cy="24" rx="2" ry="8"/>
+      <ellipse cx="82" cy="24" rx="2" ry="8"/>
+    </g>
+    
+    <!-- App title and description -->
+    <g transform="translate(350, 80)">
+      <text x="0" y="60" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#1f2937">Prayer Palette</text>
+      <text x="0" y="120" font-family="Arial, sans-serif" font-size="32" fill="#6b7280">Organize and manage your prayer life</text>
+      <text x="0" y="170" font-family="Arial, sans-serif" font-size="24" fill="#9ca3af">Create prayer cards • Set frequencies • Track requests</text>
+      
+      <!-- Feature highlights -->
+      <g transform="translate(0, 220)">
+        <circle cx="12" cy="12" r="8" fill="#e81c32"/>
+        <text x="35" y="18" font-family="Arial, sans-serif" font-size="20" fill="#4b5563">Daily, weekly, and monthly prayers</text>
+        
+        <circle cx="12" cy="52" r="8" fill="#e81c32"/>
+        <text x="35" y="58" font-family="Arial, sans-serif" font-size="20" fill="#4b5563">Scripture integration</text>
+        
+        <circle cx="12" cy="92" r="8" fill="#e81c32"/>
+        <text x="35" y="98" font-family="Arial, sans-serif" font-size="20" fill="#4b5563">Cross-device synchronization</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Subtle shine effect -->
+  <circle cx="300" cy="250" r="40" fill="white" opacity="0.1"/>
+</svg>

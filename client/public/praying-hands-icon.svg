@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Praying hands icon in #e81c32 color -->
+  <g fill="#e81c32">
+    <!-- Left hand -->
+    <path d="M208 0c-29.3 0-53.3 23.9-53.3 53.3v149.3c0 64 21.3 128 64 170.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32v-106.7c42.7-42.7 64-106.7 64-170.7V53.3C346.7 23.9 322.7 0 293.3 0H208z"/>
+    
+    <!-- Right hand -->
+    <path d="M464 0c-29.3 0-53.3 23.9-53.3 53.3v149.3c0 64-21.3 128-64 170.7V480c0 17.7-14.3 32-32 32s-32-14.3-32-32v-106.7c-42.7-42.7-64-106.7-64-170.7V53.3C218.7 23.9 242.7 0 272 0h192z"/>
+    
+    <!-- Center palm connection -->
+    <path d="M218.7 53.3h74.6v149.3c0 20.8-8.5 42.7-21.3 64-12.8-21.3-21.3-43.2-21.3-64V53.3z"/>
+    
+    <!-- Left thumb -->
+    <ellipse cx="176" cy="96" rx="16" ry="32"/>
+    
+    <!-- Right thumb -->
+    <ellipse cx="336" cy="96" rx="16" ry="32"/>
+    
+    <!-- Left fingers -->
+    <rect x="144" y="16" width="12" height="80" rx="6"/>
+    <rect x="160" y="8" width="12" height="96" rx="6"/>
+    <rect x="176" y="16" width="12" height="80" rx="6"/>
+    <rect x="192" y="24" width="12" height="72" rx="6"/>
+    
+    <!-- Right fingers -->
+    <rect x="308" y="24" width="12" height="72" rx="6"/>
+    <rect x="324" y="16" width="12" height="80" rx="6"/>
+    <rect x="340" y="8" width="12" height="96" rx="6"/>
+    <rect x="356" y="16" width="12" height="80" rx="6"/>
+    
+    <!-- Wrist details -->
+    <rect x="154.7" y="202.7" width="74.6" height="16" rx="8"/>
+    <rect x="282.7" y="202.7" width="74.6" height="16" rx="8"/>
+  </g>
+</svg>

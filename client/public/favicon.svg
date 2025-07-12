@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#e81c32"/>
+  
+  <!-- Praying hands icon (simplified) -->
+  <g fill="white" transform="translate(18, 14)">
+    <!-- Left hand -->
+    <path d="M8 4 C6 4, 4 6, 4 8 L4 22 C4 26, 6 28, 8 28 L10 28 C10 26, 10 24, 10 22 L10 8 C10 6, 8 4, 8 4 Z"/>
+    <!-- Right hand -->
+    <path d="M20 4 C22 4, 24 6, 24 8 L24 22 C24 26, 22 28, 20 28 L18 28 C18 26, 18 24, 18 22 L18 8 C18 6, 20 4, 20 4 Z"/>
+    <!-- Center connection -->
+    <path d="M10 8 L18 8 L18 22 L10 22 Z"/>
+    <!-- Fingers detail -->
+    <rect x="6" y="2" width="1" height="6" rx="0.5"/>
+    <rect x="7.5" y="1" width="1" height="7" rx="0.5"/>
+    <rect x="9" y="2" width="1" height="6" rx="0.5"/>
+    <rect x="18" y="2" width="1" height="6" rx="0.5"/>
+    <rect x="19.5" y="1" width="1" height="7" rx="0.5"/>
+    <rect x="21" y="2" width="1" height="6" rx="0.5"/>
+  </g>
+</svg>
