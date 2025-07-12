@@ -1,4 +1,4 @@
-# Prayer Cards Application
+# Prayer Palette: Prayer Cards Management App
 
 A comprehensive web-based prayer management platform that helps users organize and track their prayer life with intelligent scheduling, user engagement features, and personalized spiritual growth tools.
 
